@@ -5,8 +5,6 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitDemoApp", "GitDemoApp\GitDemoApp.csproj", "{901862F2-94B9-4C82-B643-75EA602304E7}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SystemsDevelopmentCommonFunctions", "..\..\..\..\PS Shared Projects\SystemsDevelopmentCommonFunctions\SystemsDevelopmentCommonFunctions.shproj", "{C12DCD58-054F-4DF4-BCE5-3D0686E0C9C5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +21,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2365EF7-D680-4785-B48D-54438FE4B4E7}
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\..\..\PS Shared Projects\SystemsDevelopmentCommonFunctions\SystemsDevelopmentCommonFunctions.projitems*{901862f2-94b9-4c82-b643-75ea602304e7}*SharedItemsImports = 5
-		..\..\..\..\PS Shared Projects\SystemsDevelopmentCommonFunctions\SystemsDevelopmentCommonFunctions.projitems*{c12dcd58-054f-4df4-bce5-3d0686e0c9c5}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

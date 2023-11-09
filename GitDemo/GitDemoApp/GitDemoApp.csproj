@@ -10,10 +10,4 @@
     <Folder Include="Stupid\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Serilog.Sinks.Email" Version="2.4.0" />
-  </ItemGroup>
-
-  <Import Project="..\..\..\..\..\PS Shared Projects\SystemsDevelopmentCommonFunctions\SystemsDevelopmentCommonFunctions.projitems" Label="Shared" />
-
 </Project>
