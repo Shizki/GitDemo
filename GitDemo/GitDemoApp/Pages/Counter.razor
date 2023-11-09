@@ -1,6 +1,4 @@
 ﻿@page "/counter"
-@using SystemsDevelopmentCommonFunctions;
-@using Serilog.Sinks.Email;
 
 <PageTitle>Counter</PageTitle>
 
@@ -12,9 +10,8 @@
 
 @code {
     private int currentCount = 0;
-    private EmailConnectionInfo eci = SmtpConnectionInfo.GetSmtpSettings();
     private void IncrementCount()
     {
-        currentCount += eci.Port;
+        currentCount += 5;
     }
 }
